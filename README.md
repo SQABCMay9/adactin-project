@@ -1,4 +1,4 @@
-*Basic Automation Project Structure*
+*Adactin Automation Project*
 
 **Java 7**
 
