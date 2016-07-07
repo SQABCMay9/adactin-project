@@ -12,7 +12,6 @@ package com.sqa.jf.adactin;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.*;
-import org.openqa.selenium.support.ui.*;
 
 import com.sqa.jf.core.*;
 
@@ -28,18 +27,21 @@ import com.sqa.jf.core.*;
  * @since 1.0
  *
  */
-public class AdactinHomePage extends BasicPageObject {
+public class AdactinHome extends BasicPage {
 
 	@FindBy(id = "login")
 	private static WebElement loginButton;
+
 	private static String password = "HYMNI1";
+
 	@FindBy(id = "password")
 	private static WebElement passwordField;
+
 	private static String username = "SQABCMar21";
 	@FindBy(id = "username")
 	private static WebElement usernameField;
 
-	public AdactinHomePage(WebDriver driver) {
+	public AdactinHome(WebDriver driver) {
 		super(driver);
 	}
 

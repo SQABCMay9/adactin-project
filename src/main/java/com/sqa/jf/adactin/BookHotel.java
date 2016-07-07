@@ -1,20 +1,21 @@
 /**
- *   File Name: BasicPageObject.java<br>
+ *   File Name: BookHotel.java<br>
  *
  *   LastName, FirstName<br>
  *   Java Boot Camp Exercise<br>
  *   Instructor: Jean-francois Nepton<br>
- *   Created: Jun 25, 2016
+ *   Created: Jul 6, 2016
  *
  */
 
-package com.sqa.jf.core;
+package com.sqa.jf.adactin;
 
 import org.openqa.selenium.*;
-import org.openqa.selenium.support.*;
+
+import com.sqa.jf.core.*;
 
 /**
- * BasicPageObject //ADDD (description of class)
+ * BookHotel //ADDD (description of class)
  * <p>
  * //ADDD (description of core fields)
  * <p>
@@ -25,9 +26,13 @@ import org.openqa.selenium.support.*;
  * @since 1.0
  *
  */
-public class BasicPageObject {
-	public BasicPageObject(WebDriver driver) {
-		PageFactory.initElements(driver, this);
+public class BookHotel extends BasicPage {
+
+	/**
+	 * @param driver
+	 */
+	public BookHotel(WebDriver driver) {
+		super(driver);
 	}
 
 }

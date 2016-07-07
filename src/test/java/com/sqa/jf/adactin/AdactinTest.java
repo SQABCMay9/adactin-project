@@ -40,7 +40,7 @@ public class AdactinTest extends BasicTest {
 	@Test
 	public void adactinTest() throws InterruptedException {
 		String expectedTitle = "AdactIn.com - Search Hotel";
-		AdactinHomePage home = new AdactinHomePage(getDriver());
+		AdactinHome home = new AdactinHome(getDriver());
 		home.loginToWebsite();
 		// Assert.assertEquals(getDriver().getTitle(), expectedTitle, "Login Not
 		// Successful");

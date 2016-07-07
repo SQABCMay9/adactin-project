@@ -1,10 +1,10 @@
 /**
- *   File Name: SearchHotelPage.java<br>
+ *   File Name: Itinerary.java<br>
  *
  *   LastName, FirstName<br>
  *   Java Boot Camp Exercise<br>
  *   Instructor: Jean-francois Nepton<br>
- *   Created: Jun 25, 2016
+ *   Created: Jul 6, 2016
  *
  */
 
@@ -15,7 +15,7 @@ import org.openqa.selenium.*;
 import com.sqa.jf.core.*;
 
 /**
- * SearchHotelPage //ADDD (description of class)
+ * Itinerary //ADDD (description of class)
  * <p>
  * //ADDD (description of core fields)
  * <p>
@@ -26,12 +26,12 @@ import com.sqa.jf.core.*;
  * @since 1.0
  *
  */
-public class SearchHotelPage extends BasicPageObject {
+public class Itinerary extends BasicPage {
 
 	/**
 	 * @param driver
 	 */
-	public SearchHotelPage(WebDriver driver) {
+	public Itinerary(WebDriver driver) {
 		super(driver);
 	}
 
